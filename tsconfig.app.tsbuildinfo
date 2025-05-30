@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/gemini.ts","./src/main.tsx","./src/vite-env.d.ts","./src/helpers/extractconversation.ts","./src/variables/settinglist.ts"],"errors":true,"version":"5.8.3"}
