@@ -189,6 +189,7 @@ function removeFile() {
         </div>
         
       )}
+      <a href="terms_and_conditions.html" className='terms_conditions_link' target="_blank">Terms and Conditions</a>
     </div>
   )
 }

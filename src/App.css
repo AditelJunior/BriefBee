@@ -100,3 +100,7 @@ button:disabled {
   background: none;
   box-shadow: none;
 }
+.terms_conditions_link {
+  margin-top: 20px;
+  color: #000;
+}

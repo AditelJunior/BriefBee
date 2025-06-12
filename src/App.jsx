@@ -107,7 +107,8 @@ function App() {
         }
         setLoading(false);
     };
-    return (<div className="app-container">
+    return (
+    <div className="app-container">
       <h1 className='header'>BriefBee <img className="header_logo" src={HoneyBee} alt="honey bee"/></h1>
       <div className='brief-type-selector'>
         <select value={briefType} onChange={e => setBriefType(e.target.value)}>
@@ -137,6 +138,8 @@ function App() {
               </tr>))}
         </table>
         </div>)}
-    </div>);
+        <a href="terms_and_conditions.html" target="_blank">Terms and Conditions</a>
+    </div>
+    );
 }
 export default App;

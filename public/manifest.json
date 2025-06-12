@@ -11,7 +11,7 @@
     "action": {
         "default_popup": "index.html"
     },
-    "permissions": ["activeTab", "tabs", "scripting", "storage"],
+    "permissions": ["activeTab", "scripting", "storage"],
     "host_permissions": ["<all_urls>"],
     "background": {
         "service_worker": "background.js"
